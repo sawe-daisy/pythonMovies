@@ -11,6 +11,13 @@
     </head>
     <body style="background-color: aquamarine;">
         {% block content %}
+
+        <div class="container">
+            <form>
+                <input type="text" name="movie_query" placeholder="search for movie here" class="form-control">
+                <input type="submit" value="submit" class="btn btn-success">
+            </form>
+        </div>
         <!-- Popular movie -->
         <h3> Popular Movies</h3>
         <ul>
